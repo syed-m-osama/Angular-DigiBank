@@ -1,0 +1,38 @@
+<!-- <h1>WELCOME</h1> -->
+<nav class="navbar">
+
+  <div class="navbar-left">
+    <!-- Add your logo and title here -->
+    <!-- <img src="assets/D.png" alt="Logo" style="height: 100px; width: 150px;"> -->
+    <mat-icon style="margin-bottom: 8px;font-size: 30px; padding: 10px; color: gold;">account_balance</mat-icon>
+    <span class="navbar-title" style=" padding:8px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">DIGI<span style="color: gold;">BANK</span></span>
+  </div>
+
+  <div class="navbar-middle">
+    <ul>
+      <li (click)="selectNavItem('acc-sum')" [class.selected]="selectedNavItem === 'acc-sum'"><a routerLink="account-summary">ACCOUNT SUMMARY</a></li>
+      <li (click)="selectNavItem('transfer')" [class.selected]="selectedNavItem === 'transfer'"><a routerLink="transfer">TRANSFER</a></li>
+      <li (click)="selectNavItem('transfer')" [class.selected]="selectedNavItem === 'profile'"><a routerLink="profile">PROFILE</a></li>
+    </ul>
+  </div>
+
+  <div class="navbar-right">
+    <button (click)="logout()">LOGOUT</button>
+  </div>
+
+</nav>
+
+<router-outlet></router-outlet>
+
+
+
+
+
+<!-- <p>home works!</p>
+
+<button><a routerLink="account-summary">ACCOUNT SUMMARY</a></button>
+<button><a routerLink="transfer">TRANSFER</a></button>
+<button (click)="logout()">LOGOUT</button>
+
+<router-outlet></router-outlet> -->
+<!-- <app-account-summary></app-account-summary> -->

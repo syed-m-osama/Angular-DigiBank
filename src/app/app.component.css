@@ -1,0 +1,20 @@
+/* .content {
+  flex: 1;
+}
+
+.footer {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px; /* Set a height for the container, adjust as needed */
+ /* background-color: f2f2f2; /* Optional background color */
+
+  /* Add any additional styles you want for the footer container */
+/* }
+
+.footer p {
+  margin: 0; /* Remove default margin for the <p> tag */
+  /* text-align: center;
+  font-size: smaller;
+} */

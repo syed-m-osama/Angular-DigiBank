@@ -1,1 +1,44 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #ffe0e0a9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  /* margin: 0; */
+  /* justify-items: auto; */
+  /* flex-basis: content; */
+  /* max-width: 1000px;
+  min-width: 1000px; */
+}
+
+.content {
+  flex: 1;
+}
+
+.footer {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px; /* Set a height for the container, adjust as needed */
+  background-color: #fafafa; /* Optional background color */
+
+  /* Add any additional styles you want for the footer container */
+}
+
+.footer p {
+  margin: 0; /* Remove default margin for the <p> tag */
+  text-align: center;
+  font-size: smaller;
+}
+
+
+
+/* html, body { height: 100%; } */
+/* body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; } */
+
+/* html, body { height: 100%; } */
+/* body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; } */

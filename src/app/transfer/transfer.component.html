@@ -1,0 +1,79 @@
+<!-- Remove [formGroup] and formControlName, use ngModel instead -->
+<div class="main-container">
+  <h2>Pay/Transfer</h2>
+
+  <form #transferForm="ngForm" (ngSubmit)="postTransferDataNew('DEBIT');postTransferDataNew('CREDIT')">
+
+    <!-- <mat-form-field>
+    <mat-label style="color: red;">User ID</mat-label>
+    <input matInput placeholder="Placeholder">
+    <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+    <mat-hint>Hint</mat-hint>
+  </mat-form-field> -->
+
+    <!-- <label for="userId">User ID:</label>
+  <input class="readonly-input" type="number" id="userId" name="userId" [(ngModel)]="transferFormValue.userId" required readonly>
+  <br> -->
+    <label for="from">Pay Using:</label>
+    <select type="text" id="from" name="from" [(ngModel)]="transferFormValue.from" required (ngModelChange)="getFromBalance()">
+      <option *ngFor="let option of transferFromOptions" [value]="option.accountNumber">{{ option.accountNumber }}</option>
+    </select>
+    <br>
+    <!-- <label for="username">Username:</label>
+  <input type="text" id="username" name="username" [(ngModel)]="transferFormValue.username" required>
+  <br> -->
+    <!-- <label for="tId">T-ID:</label>
+  <input type="text" id="tId" name="tId" [(ngModel)]="transferFormValue.tId" required>
+  <br> -->
+    <label for="to">Transfer To:</label>
+    <select id="to" name="to" [(ngModel)]="transferFormValue.to" required (ngModelChange)="getToBalance()">
+      <option *ngFor="let option of transferToOptions" [value]="option.accountNumber">{{option.name}} {{ option.accountNumber }}</option>
+      <!-- Add more options as needed -->
+    </select>
+    <br>
+
+    <!-- <label for="to">Transfer To:</label>
+  <input type="text" id="to" name="to" [(ngModel)]="transferFormValue.to" required>
+  <br> -->
+    <!-- <label for="tType">Account Type:</label>
+  <input type="text" id="tType" name="tType" [(ngModel)]="transferFormValue.tType" required>
+  <br> -->
+    <label for="amount">Amount:</label>
+    <input type="number" id="amount" name="amount" [(ngModel)]="transferFormValue.amount"
+      (ngModelChange)="validateAmount()" required>
+    <div *ngIf="amountOutOfRange" style="color: red;">
+      Amount must be between 1 and 1,000,000 or <br> Check Account Balance.
+    </div>
+    <br>
+
+
+    <label for="date">Date:</label>
+    <input class="readonly-input" type="text" name="date" [(ngModel)]="transferFormValue.date" required readonly>
+    <br>
+    <button type="submit" [disabled]="!transferForm.valid || amountOutOfRange" [ngClass]="{
+    'transfer-button-valid': (transferForm.valid && !amountOutOfRange),
+    'transfer-button-invalid': (!transferForm.valid || amountOutOfRange)
+ }">TRANSFER</button>
+    <br>
+    <br>
+  </form>
+  <div *ngIf="transactionSuccess" class="success-message">
+    Transaction successful!
+  </div>
+
+
+</div>
+<!-- <h1>transfer</h1>
+<h2>Pay/Transfer</h2>
+<form [formGroup]="transferForm" (ngSubmit)="postTransferData()">
+<label for="id">ID:</label>
+<input type="number" id="id" formControlName="id" required>
+<br>
+<label for="username">username:</label>
+<input type="text" id="username" formControlName="username" required>
+<br>
+<label for="transfer">Transfer:</label>
+<input type="text" id="transfer" formControlName="transfer" required>
+<br>
+<buton type="submit" [disabled]="transferForm.invalid">SUBMIT</buton>
+</form> -->

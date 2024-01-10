@@ -1,0 +1,438 @@
+{
+  "users": [
+    {
+      "userId": "1001",
+      "username": "james-bond",
+      "firstName": "James",
+      "lastName": "Bond",
+      "mobile": "9765789900",
+      "email": "james007bond@gmail.com",
+      "country": "India",
+      "accounts": [
+        {
+          "name": "James Bond",
+          "accountNumber": "90001001",
+          "accountType": "Savings",
+          "availableBalance": 100000
+        },
+        {
+          "name": "James Bond",
+          "accountNumber": "90001002",
+          "accountType": "Current",
+          "availableBalance": 20000
+        },
+        {
+          "name": "James Bond",
+          "accountNumber": "90001003",
+          "accountType": "Fixed Deposit",
+          "availableBalance": 30000
+        }
+      ]
+    },
+    {
+      "userId": "1002",
+      "username": "syed-osama",
+      "firstName": "Syed",
+      "lastName": "Osama",
+      "mobile": "7566789900",
+      "email": "supersyed123@gmail.com",
+      "country": "India",
+      "accounts": [
+        {
+          "name": "Syed Osama",
+          "accountNumber": "90002001",
+          "accountType": "Savings",
+          "availableBalance": 150
+        },
+        {
+          "name": "Syed Osama",
+          "accountNumber": "90002002",
+          "accountType": "Current",
+          "availableBalance": 180000
+        },
+        {
+          "name": "Syed Osama",
+          "accountNumber": "90002003",
+          "accountType": "Fixed Deposit",
+          "availableBalance": 25000
+        }
+      ]
+    },
+    {
+      "userId": "1003",
+      "username": "lisa-jones",
+      "firstName": "Lisa",
+      "lastName": "Jones",
+      "mobile": "7566666900",
+      "email": "lisajones777@gmail.com",
+      "country": "India",
+      "accounts": [
+        {
+          "name": "Lisa Jones",
+          "accountNumber": "90003001",
+          "accountType": "Savings",
+          "availableBalance": 12000
+        },
+        {
+          "name": "Lisa Jones",
+          "accountNumber": "90003002",
+          "accountType": "Current",
+          "availableBalance": 2200
+        }
+      ]
+    },
+    {
+      "userId": "1004",
+      "username": "michael-jackson",
+      "firstName": "Michael",
+      "lastName": "Jackson",
+      "mobile": "9996789900",
+      "email": "mjackson123@gmail.com",
+      "country": "India",
+      "accounts": [
+        {
+          "name": "Michael Jackson",
+          "accountNumber": "90004001",
+          "accountType": "Savings",
+          "availableBalance": 20000
+        },
+        {
+          "name": "Michael Jackson",
+          "accountNumber": "90004002",
+          "accountType": "Current",
+          "availableBalance": 170000
+        },
+        {
+          "name": "Michael Jackson",
+          "accountNumber": "90004003",
+          "accountType": "Fixed Deposit",
+          "availableBalance": 30000
+        }
+      ]
+    }
+  ],
+  "transfers": [
+    {
+      "id": 100,
+      "userId": "1001",
+      "accountNumber": "90001001",
+      "accountType": "Savings",
+      "accountBalance": 8800,
+      "history": [
+        {
+          "from": "90001001",
+          "to": "90002001",
+          "transferType": "DEBIT",
+          "amount": 100,
+          "date": "2023-11-12T06:57:51.352Z"
+        },
+        {
+          "from": "90001001",
+          "to": "90002001",
+          "transferType": "DEBIT",
+          "amount": 100,
+          "date": "2023-11-12T06:57:51.352Z"
+        },
+        {
+          "from": "90001001",
+          "to": "90002001",
+          "transferType": "DEBIT",
+          "amount": 100,
+          "date": "2023-12-11T06:57:51.352Z"
+        },
+        {
+          "from": "90001001",
+          "to": "90002001",
+          "transferType": "DEBIT",
+          "amount": 10,
+          "date": "2023-12-11T06:57:51.352Z"
+        },
+        {
+          "from": "90001001",
+          "to": "90002001",
+          "transferType": "DEBIT",
+          "amount": 900,
+          "date": "2023-12-12T06:57:51.352Z"
+        },
+        {
+          "from": "90001001",
+          "to": "90002001",
+          "transferType": "DEBIT",
+          "amount": 800,
+          "date": "2023-12-12T06:57:51.352Z"
+        },
+        {
+          "from": "90001001",
+          "to": "90002001",
+          "transferType": "DEBIT",
+          "amount": 100,
+          "date": "2023-12-12T06:57:51.352Z"
+        },
+        {
+          "from": "90001001",
+          "to": "90002001",
+          "transferType": "DEBIT",
+          "amount": 100,
+          "date": "2023-12-12T06:57:51.352Z"
+        },
+        {
+          "from": "90002001",
+          "to": "90001001",
+          "transferType": "CREDIT",
+          "amount": 10,
+          "date": "2023-12-12T17:55:42.386Z"
+        },
+        {
+          "from": "90001001",
+          "to": "90002001",
+          "transferType": "DEBIT",
+          "amount": 10,
+          "date": "2023-12-12T18:11:21.773Z"
+        },
+        {
+          "from": "90001001",
+          "to": "90002001",
+          "transferType": "DEBIT",
+          "amount": 10,
+          "date": "2023-12-12T18:16:22.991Z"
+        },
+        {
+          "from": "90002001",
+          "to": "90001001",
+          "transferType": "CREDIT",
+          "amount": 10,
+          "date": "2023-12-12T19:12:28.107Z"
+        },
+        {
+          "from": "90001001",
+          "to": "90002001",
+          "transferType": "DEBIT",
+          "amount": 100,
+          "date": "2023-12-12T19:13:38.273Z"
+        },
+        {
+          "from": "90001001",
+          "to": "90002001",
+          "transferType": "DEBIT",
+          "amount": 1000,
+          "date": "2023-12-13T09:04:31.856Z"
+        },
+        {
+          "from": "90002001",
+          "to": "90001001",
+          "transferType": "CREDIT",
+          "amount": 100,
+          "date": "2023-12-13T10:10:35.754Z"
+        }
+      ]
+    },
+    {
+      "id": 101,
+      "userId": "1001",
+      "accountNumber": "90001002",
+      "accountType": "Current",
+      "accountBalance": 10200,
+      "history": [
+        {
+          "from": "90002001",
+          "to": "90001002",
+          "transferType": "CREDIT",
+          "amount": 100,
+          "date": "2023-12-13T04:47:10.119Z"
+        },
+        {
+          "from": "90002001",
+          "to": "90001002",
+          "transferType": "CREDIT",
+          "amount": 100,
+          "date": "2023-12-13T05:18:16.145Z"
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "userId": "1001",
+      "accountNumber": "90001003",
+      "accountType": "Fixed Deposit",
+      "accountBalance": 5000,
+      "history": []
+    },
+    {
+      "id": 200,
+      "userId": "1002",
+      "accountNumber": "90002001",
+      "accountType": "Savings",
+      "accountBalance": 3160,
+      "history": [
+        {
+          "from": "90001001",
+          "to": "90002001",
+          "transferType": "CREDIT",
+          "amount": 100,
+          "date": "2023-11-12T06:57:51.356Z"
+        },
+        {
+          "from": "90001001",
+          "to": "90002001",
+          "transferType": "CREDIT",
+          "amount": 100,
+          "date": "2023-11-12T06:57:51.356Z"
+        },
+        {
+          "from": "90001001",
+          "to": "90002001",
+          "transferType": "CREDIT",
+          "amount": 10,
+          "date": "2023-12-11T06:57:51.356Z"
+        },
+        {
+          "from": "90001001",
+          "to": "90002001",
+          "transferType": "CREDIT",
+          "amount": 900,
+          "date": "2023-12-11T06:57:51.356Z"
+        },
+        {
+          "from": "90001001",
+          "to": "90002001",
+          "transferType": "CREDIT",
+          "amount": 800,
+          "date": "2023-12-11T06:57:51.356Z"
+        },
+        {
+          "from": "90001001",
+          "to": "90002001",
+          "transferType": "CREDIT",
+          "amount": 100,
+          "date": "2023-12-12T06:56:14.926Z"
+        },
+        {
+          "from": "90001001",
+          "to": "90002001",
+          "transferType": "CREDIT",
+          "amount": 100,
+          "date": "2023-12-12T06:57:51.356Z"
+        },
+        {
+          "from": "90002001",
+          "to": "90001001",
+          "transferType": "DEBIT",
+          "amount": 10,
+          "date": "2023-12-12T17:55:42.380Z"
+        },
+        {
+          "from": "90001001",
+          "to": "90002001",
+          "transferType": "CREDIT",
+          "amount": 10,
+          "date": "2023-12-12T18:11:21.779Z"
+        },
+        {
+          "from": "90001001",
+          "to": "90002001",
+          "transferType": "CREDIT",
+          "amount": 10,
+          "date": "2023-12-12T18:16:22.996Z"
+        },
+        {
+          "from": "90002001",
+          "to": "90001001",
+          "transferType": "DEBIT",
+          "amount": 10,
+          "date": "2023-12-12T19:12:28.099Z"
+        },
+        {
+          "from": "90001001",
+          "to": "90002001",
+          "transferType": "CREDIT",
+          "amount": 100,
+          "date": "2023-12-12T19:13:38.280Z"
+        },
+        {
+          "from": "90002001",
+          "to": "90001002",
+          "transferType": "DEBIT",
+          "amount": 100,
+          "date": "2023-12-13T04:47:10.108Z"
+        },
+        {
+          "from": "90002001",
+          "to": "90001002",
+          "transferType": "DEBIT",
+          "amount": 100,
+          "date": "2023-12-13T05:18:16.144Z"
+        },
+        {
+          "from": "90001001",
+          "to": "90002001",
+          "transferType": "CREDIT",
+          "amount": 1000,
+          "date": "2023-12-13T09:04:31.863Z"
+        },
+        {
+          "from": "90002001",
+          "to": "90001001",
+          "transferType": "DEBIT",
+          "amount": 100,
+          "date": "2023-12-13T10:10:35.753Z"
+        }
+      ]
+    },
+    {
+      "id": 201,
+      "userId": "1002",
+      "accountNumber": "90002002",
+      "accountType": "Current",
+      "accountBalance": 2360,
+      "history": []
+    },
+    {
+      "id": 202,
+      "userId": "1002",
+      "accountNumber": "90002003",
+      "accountType": "Fixed Deposit",
+      "accountBalance": 8000,
+      "history": []
+    },
+    {
+      "id": 300,
+      "userId": "1003",
+      "accountNumber": "90003001",
+      "accountType": "Savings",
+      "accountBalance": 30000,
+      "history": []
+    },
+    {
+      "id": 301,
+      "userId": "1003",
+      "accountNumber": "90003002",
+      "accountType": "Current",
+      "accountBalance": 9000,
+      "history": []
+    },
+    {
+      "id": 400,
+      "userId": "1004",
+      "accountNumber": "90004001",
+      "accountType": "Savings",
+      "accountBalance": 2360,
+      "history": []
+    },
+    {
+      "id": 401,
+      "userId": "1004",
+      "accountNumber": "90004002",
+      "accountType": "Current",
+      "accountBalance": 150000,
+      "history": []
+    },
+    {
+      "id": 403,
+      "userId": "1004",
+      "accountNumber": "90004003",
+      "accountType": "Fixed Deposit",
+      "accountBalance": 20000,
+      "history": []
+    }
+  ]
+}

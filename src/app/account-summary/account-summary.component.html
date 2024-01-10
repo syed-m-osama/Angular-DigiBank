@@ -1,0 +1,18 @@
+
+<div class="accounts-type">
+  <!-- <h2>Savings</h2> -->
+  <!-- <div class="accounts-cards"> -->
+  <mat-card *ngFor="let account of accounts">
+    <mat-card-header>
+      <mat-card-title style="font-size: x-large; font-weight: 500;">Account: {{account.accountNumber}}</mat-card-title>
+      <mat-card-subtitle>{{account.accountType}}</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+<!-- Account Balance: {{currencySymbol$|async}}{{account.availableBalance}} -->
+    </mat-card-content>
+    <mat-card-actions>
+      <button class="button" (click)="setAccountNumber(account.accountNumber)" routerLink="../account-details" >More Details</button>
+    </mat-card-actions>
+  </mat-card>
+<!-- </div> -->
+</div>

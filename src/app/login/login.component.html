@@ -1,0 +1,48 @@
+<!-- <p>login works!</p> -->
+
+<h1 style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Welcome to <span style="font-weight: bolder;">DIGI</span><span style="color: gold;">BANK</span></h1>
+<div class="parent-login-container">
+  <div><img src="assets/D.png" alt=""></div>
+<div class="login-container" >
+  <!-- <img src="assets/D.png" alt="" style="height: 200px;"> -->
+  <h2>LOGIN</h2>
+  <form (ngSubmit)="login()">
+    <div class="form-group">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" [(ngModel)]="username" required>
+    </div>
+
+    <div class="form-group">
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" [(ngModel)]="password" required>
+    </div>
+
+    <!-- <div class="error-message" *ngIf="errorMessage">{{ errorMessage }}</div> -->
+
+<div style="display: flex; align-items: center;  justify-content: space-between;">
+    <button id="login" type="submit" mat-raised-button>Login</button>
+    <div class="error-message" *ngIf="errorMessage">{{ errorMessage }}</div>
+  </div>
+  </form>
+
+</div>
+
+</div>
+<!--
+<div class="register-photo">
+  <div class="form-container">
+      <div class="image-holder"></div>
+      <form method="post">
+          <h2 class="text-center"><strong>Welcome back!</strong></h2>
+          <div class="form-group"><input class="form-control" type="Username" name="Username" placeholder="Username"></div>
+          <div class="form-group"><input class="form-control" type="password" name="password" placeholder="Password"></div>
+          <div class="form-group">
+              <div class="d-flex justify-content-between">
+      <div class="form-check"> <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"> <label class="form-check-label" for="flexCheckDefault"> Remember me </label> </div>
+      <div> <a href="#" class="text-info">Forgot Password</a> </div>
+  </div>
+          </div>
+          <div class="form-group"><button class="btn btn-success btn-block btn-info" type="submit">Login</button></div><a class="already" href="#">Terms of Use and Privacy Policy</a>
+      </form>
+  </div>
+</div> -->

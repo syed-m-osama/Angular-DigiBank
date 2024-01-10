@@ -1,0 +1,7 @@
+{
+  "users": [
+    { "userId": "1001", "username": "james-bond", "password": "password" },
+    { "userId": "1002", "username": "syed-osama", "password": "password"},
+    { "userId": "1003", "username": "lisa-jones", "password": "password"}
+  ]
+}

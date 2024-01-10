@@ -1,0 +1,388 @@
+{
+  "transfer": [
+    {
+      "userId": 1001,
+      "tTo": "John",
+      "tType": "Savings",
+      "tAmount": 50,
+      "tDate": "Mon Dec 04 2023",
+      "id": 0
+    },
+    {
+      "userId": 1002,
+      "tTo": "Kaushal",
+      "tType": "Savings",
+      "tAmount": 1000,
+      "tDate": "Mon Dec 04 2023",
+      "id": 1
+    },
+    {
+      "userId": 1002,
+      "tTo": "Syed",
+      "tType": "Current",
+      "tAmount": 2000,
+      "tDate": "Tue Dec 05 2023",
+      "id": 2
+    },
+    {
+      "userId": 1002,
+      "tTo": "Kaushal",
+      "tType": "Current",
+      "tAmount": 2000,
+      "tDate": "Tue Dec 05 2023",
+      "id": 3
+    },
+    {
+      "userId": 1003,
+      "tTo": "Sai Harsh",
+      "tType": "Fixed Deposit",
+      "tAmount": 5000,
+      "tDate": "Fri Dec 08 2023",
+      "id": 4
+    },
+    {
+      "userId": 1002,
+      "tTo": "Abirami",
+      "tType": "Savings",
+      "tAmount": 500,
+      "tDate": "Fri Dec 08 2023",
+      "id": 5
+    },
+    {
+      "userId": 1003,
+      "tTo": "Abirami",
+      "tType": "Savings",
+      "tAmount": 500,
+      "tDate": "Fri Dec 08 2023",
+      "id": 6
+    },
+    {
+      "userId": 1002,
+      "tTo": "Kaushal",
+      "tType": "Current",
+      "tAmount": 2000,
+      "tDate": "Fri Dec 08 2023",
+      "id": 7
+    },
+    {
+      "userId": 1002,
+      "tTo": "Kaushal",
+      "tType": "Current",
+      "tAmount": 2000,
+      "tDate": "Fri Dec 08 2023",
+      "id": 8
+    },
+    {
+      "userId": 1001,
+      "tTo": "John",
+      "tType": "Savings",
+      "tAmount": 50,
+      "tDate": "Fri Dec 08 2023",
+      "id": 9
+    },
+    {
+      "userId": 1001,
+      "tTo": "John",
+      "tType": "Savings",
+      "tAmount": 50,
+      "tDate": "Fri Dec 08 2023",
+      "id": 10
+    },
+    {
+      "userId": 1002,
+      "tTo": "james-bond",
+      "tType": "Savings",
+      "tAmount": "4000",
+      "tDate": "Fri Dec 08 2023",
+      "id": 11
+    },
+    {
+      "userId": 1002,
+      "tTo": "Syed Osama",
+      "tType": "Current",
+      "tAmount": "900",
+      "tDate": "Fri Dec 08 2023",
+      "id": 12
+    },
+    {
+      "userId": 1002,
+      "tTo": "Kaushal",
+      "tType": "Saving",
+      "tAmount": "3000",
+      "tDate": "Fri Dec 08 2023",
+      "id": 13
+    },
+    {
+      "userId": 0,
+      "tTo": "sdsddssd",
+      "tType": "asda",
+      "tAmount": "asda",
+      "tDate": "Dec 10 2023",
+      "id": 14
+    },
+    {
+      "userId": 0,
+      "tTo": "ds",
+      "tType": "d",
+      "tAmount": 0,
+      "tDate": "Dec 10 2023",
+      "id": 15
+    },
+    {
+      "to": 90001002,
+      "type": "asda",
+      "amount": 90,
+      "date": "Dec 10 2023",
+      "refereceNumber": 20231210,
+      "id": 16
+    },
+    {
+      "userId": 0,
+      "tTo": "option2",
+      "tType": "",
+      "tAmount": "ff",
+      "tDate": "Dec 10 2023",
+      "id": 17
+    },
+    {
+      "userId": 0,
+      "tTo": "option2",
+      "tType": "",
+      "tAmount": "012121221121",
+      "tDate": "Dec 10 2023",
+      "id": 18
+    },
+    {
+      "userId": 0,
+      "tTo": "option2",
+      "tType": "",
+      "tAmount": "03121",
+      "tDate": "Dec 10 2023",
+      "id": 19
+    },
+    {
+      "userId": 0,
+      "tTo": "option3",
+      "tType": "",
+      "tAmount": "12",
+      "tDate": "Dec 10 2023",
+      "id": 20
+    },
+    {
+      "userId": 0,
+      "tTo": "option2",
+      "tType": "",
+      "tAmount": 1,
+      "tDate": "Dec 10 2023",
+      "id": 21
+    },
+    {
+      "userId": 0,
+      "tTo": "option3",
+      "tType": "",
+      "tAmount": 1,
+      "tDate": "Dec 10 2023",
+      "id": 22
+    },
+    {
+      "userId": 0,
+      "tTo": "option1",
+      "tType": "",
+      "tAmount": 1,
+      "tDate": "Dec 10 2023",
+      "id": 23
+    },
+    {
+      "userId": 1002,
+      "tTo": "option3",
+      "tType": "",
+      "tAmount": "100",
+      "tDate": "Dec 10 2023",
+      "id": 24
+    },
+    {
+      "userId": 0,
+      "tTo": "option2",
+      "tType": "",
+      "tAmount": 32233,
+      "tDate": "Dec 10 2023",
+      "id": 25
+    },
+    {
+      "userId": 0,
+      "tTo": "undefined",
+      "tType": "",
+      "tAmount": 1,
+      "tDate": "Dec 11 2023",
+      "id": 26
+    },
+    {
+      "userId": 0,
+      "from": "undefined",
+      "to": "undefined",
+      "amount": 1,
+      "date": "Dec 11 2023",
+      "id": 27
+    },
+    {
+      "userId": 0,
+      "from": "90002001",
+      "to": "undefined",
+      "amount": 1,
+      "date": "Dec 11 2023",
+      "id": 28
+    },
+    {
+      "userId": 0,
+      "from": "90002003",
+      "to": "90004002",
+      "amount": 1,
+      "date": "Dec 11 2023",
+      "id": 29
+    },
+    {
+      "userId": 0,
+      "from": "90002001",
+      "to": "90001003",
+      "transferType": "",
+      "amount": 10000,
+      "date": "Dec 11 2023",
+      "id": 30
+    },
+    {
+      "userId": "1002",
+      "from": "90001001",
+      "to": "90002001",
+      "transferType": "",
+      "amount": 1,
+      "date": "Dec 11 2023",
+      "id": 31
+    },
+    {
+      "userId": "",
+      "from": "90001001",
+      "to": "90002001",
+      "transferType": "",
+      "amount": 100,
+      "date": "Dec 11 2023",
+      "id": 32
+    },
+    {
+      "userId": "",
+      "from": "90001001",
+      "to": "90002001",
+      "transferType": "",
+      "amount": 100,
+      "date": "Dec 11 2023",
+      "id": 33
+    },
+    {
+      "userId": "",
+      "from": "90001001",
+      "to": "90002001",
+      "transferType": "",
+      "amount": 100,
+      "date": "Dec 11 2023",
+      "id": 34
+    },
+    {
+      "userId": "",
+      "from": "90001001",
+      "to": "90002001",
+      "transferType": "",
+      "amount": 100,
+      "date": "Dec 11 2023",
+      "id": 35
+    },
+    {
+      "userId": "",
+      "from": "90001001",
+      "to": "90002001",
+      "transferType": "",
+      "amount": 100,
+      "date": "Dec 11 2023",
+      "id": 36
+    },
+    {
+      "userId": "",
+      "from": "90001001",
+      "to": "90002001",
+      "transferType": "",
+      "amount": 10,
+      "date": "Dec 12 2023",
+      "id": 37
+    },
+    {
+      "userId": "",
+      "from": "90001001",
+      "to": "90002001",
+      "transferType": "",
+      "amount": 10,
+      "date": "Dec 12 2023",
+      "id": 38
+    },
+    {
+      "userId": "",
+      "from": "90001001",
+      "to": "90002001",
+      "transferType": "",
+      "amount": 1,
+      "date": "Dec 12 2023",
+      "id": 39
+    },
+    {
+      "userId": "",
+      "from": "90001001",
+      "to": "90002001",
+      "transferType": "",
+      "amount": 1,
+      "date": "Dec 12 2023",
+      "id": 40
+    },
+    {
+      "userId": "",
+      "from": "90001001",
+      "to": "90002001",
+      "transferType": "",
+      "amount": 10,
+      "date": "Dec 12 2023",
+      "id": 41
+    },
+    {
+      "userId": "",
+      "from": "90001001",
+      "to": "90002001",
+      "transferType": "",
+      "amount": 1,
+      "date": "Dec 12 2023",
+      "id": 42
+    },
+    {
+      "userId": "",
+      "from": "90001001",
+      "to": "90002001",
+      "transferType": "",
+      "amount": 9,
+      "date": "Dec 12 2023",
+      "id": 43
+    },
+    {
+      "userId": "",
+      "from": "90001001",
+      "to": "90002001",
+      "transferType": "",
+      "amount": 100,
+      "date": "Dec 12 2023",
+      "id": 44
+    },
+    {
+      "userId": "",
+      "from": "90001001",
+      "to": "90002001",
+      "transferType": "",
+      "amount": 100,
+      "date": "Dec 12 2023",
+      "id": 45
+    }
+  ]
+}

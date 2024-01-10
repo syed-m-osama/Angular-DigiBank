@@ -1,0 +1,105 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* height: 10px; */
+  background-color: white; /* Change the background color as needed */
+  padding: 20px;
+  border-radius: 5px;
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* flex-wrap: wrap; */
+}
+
+h2 {
+  color: darkred;
+  font-weight: bold;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width:  400px;
+  flex-wrap: wrap;
+}
+
+
+
+label {
+  margin-right: 10px ;
+  color: rgb(149, 0, 0);
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid rgb(149, 0, 0);
+  border-radius: 3px;
+}
+
+
+.transfer-button-valid {
+  background-color: rgb(149, 0, 0);
+  color: white;
+  border-radius: 5px;
+  border-width: 0;
+  padding: 10px;
+  cursor: pointer;
+  /* font-weight: bold; */
+}
+
+.transfer-button-invalid {
+  background-color: rgb(149, 0, 0, 0.7);
+  color: white;
+  border-radius: 5px;
+  border-width: 0;
+
+  padding: 10px;
+  cursor:not-allowed;
+}
+
+.readonly-input {
+  background-color: #e5e5e5;
+  /* color: #000000; */
+}
+
+select {
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid rgb(149, 0, 0);
+  border-radius: 3px;
+}
+
+select option {
+  padding: 10px;
+  background-color: #fff;
+  color: #333;
+}
+
+select:hover {
+  color: darkred;
+}
+
+/* Style the hover effect */
+select option:hover {
+  background-color: rgb(149, 0, 0,0.5);
+}
+
+/* Style the selected option */
+select option:checked {
+  color: white;
+  background-color: rgb(175, 3, 3);
+}
+
+/* Style the disabled options */
+select option:disabled {
+  color: #999999;
+}
+
+.success-message {
+  color: green;
+  font-weight: bolder;
+  font-size: x-large;
+}
