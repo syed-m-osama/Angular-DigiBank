@@ -10,7 +10,7 @@ export class AuthService {
   private isAuthenticated = false;
   private username = '';
   private userId = '';
-  private baseUrl = 'http://localhost:3001';
+  private baseUrl = 'http://localhost:3000';
   accountNumberDetails: string = "";
 
   constructor(
@@ -23,7 +23,7 @@ export class AuthService {
     }
 
   login(username: string, password: string): Observable<boolean> {
-    const url = `${this.baseUrl}/users?username=${username}&password=${password}`;
+    const url = `${this.baseUrl}/login?username=${username}&password=${password}`;
     return this.http.get<any[]>(url).pipe(
       map(users => {
         const isValid = users.length > 0;
